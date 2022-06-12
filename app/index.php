@@ -9,7 +9,6 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Dictionary</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="../Fonts/fontawesome/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 
 <body class="dictionary">
