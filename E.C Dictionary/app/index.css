@@ -1,0 +1,9 @@
+@import url("../Styles/preload.css");
+@import url("../Styles/font.css");
+@import url("../Styles/home.css");
+@import url("../Styles/result.css");
+@import url("../Styles/loader.css");
+body {
+    margin: 0;
+    padding: 0;
+}

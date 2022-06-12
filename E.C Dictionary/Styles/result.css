@@ -1,0 +1,190 @@
+.result {
+    background-color: white;
+    padding: 20px;
+}
+
+.result--back {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px;
+    ;
+}
+
+#back {
+    color: rgba(4, 5, 82, 0.616);
+    font-size: 20px;
+}
+
+.back {
+    color: rgba(4, 5, 82, 0.616);
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.word-result {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 7px;
+}
+
+.word {
+    color: rgba(4, 5, 82, 0.616);
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.phonetics {
+    padding: 5px;
+    margin-bottom: 4%;
+}
+
+.word-result--phonetics {
+    color: rgba(4, 5, 82, 0.616);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#play {
+    color: rgba(4, 5, 82, 0.616);
+    font-size: 18px;
+}
+
+.part {
+    color: white;
+    background-color: rgba(4, 5, 82, 0.616);
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 19px;
+    font-family: "Quicksand";
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.meanings {
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.meaning-sub {
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.definition {
+    color: rgba(4, 5, 82, 0.616);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 22px;
+}
+
+.definition_number {
+    color: rgba(128, 128, 128, 0.63);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+ol {
+    padding: 10px;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.meaning-sub--definition {
+    padding: 5px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: rgb(4, 5, 82);
+    display: block;
+    font-weight: 500;
+}
+
+.number {
+    color: rgb(4, 5, 82);
+    font-weight: 1200;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.synonym {
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.syn {
+    color: rgba(4, 5, 82, 0.616);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.syn_number {
+    color: rgba(128, 128, 128, 0.63);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+ul {
+    padding: 10px;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.synonyms {
+    padding: 3px;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: rgba(4, 5, 82, 0.808);
+    display: block;
+    font-weight: 500;
+}
+
+.antonym {
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.ant {
+    color: rgba(4, 5, 82, 0.616);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.ant_number {
+    color: rgba(128, 128, 128, 0.63);
+    font-family: "Quicksand";
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+.antonyms {
+    padding: 3px;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: rgba(4, 5, 82, 0.808);
+    display: block;
+    font-weight: 500;
+}
