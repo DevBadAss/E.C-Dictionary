@@ -25,7 +25,7 @@ function Search(word) {
                         db: history.dbName,
                         command: history.insertIn("History", `'${word}'`, { options: "Words" })
                     }
-                    const historyRequest = new Request({ url: "./Dependencies/DB-API/run.php", method: "POST", res: "text", type: "text/plain", data: command });
+                    const historyRequest = new Request({ url: "/Dependencies/DB-API/run.php", method: "POST", res: "text", type: "text/plain", data: command });
                     historyRequest.push(resp => {
                         document.querySelector(".dictionary").innerHTML = `    <center>
                                                                                     <div class="loader fas fa-spin"></div>
@@ -61,7 +61,7 @@ export function getHistory() {
         db: history.dbName,
         query: history.query("History", { options: "DISTINCT *" })
     }
-    const historyRequest = new Request({ url: "./Dependencies/DB-API/query.php", method: "POST", res: "text", type: "text/plain", data: command });
+    const historyRequest = new Request({ url: "/Dependencies/DB-API/query.php", method: "POST", res: "text", type: "text/plain", data: command });
     historyRequest.push(res => {
         const response = JSON.parse(historyRequest.decipher(res, { options: "object" }));
         const data = [];
